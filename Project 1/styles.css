@@ -1,0 +1,152 @@
+.student{
+    background-color: brown;
+    color: black;
+    text-align:center;
+    display: block;
+    margin: 15px auto;
+    padding: 10px 15px;
+    border-radius: 16px;
+    
+}
+h4{
+    color: darkmagenta;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:  rgb(230, 239, 244);
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.login-box{
+    background-color: rgb(182, 223, 249);
+    width: 300px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.navbar a:hover{
+    background-color: hsl(0, 6%, 3%);
+}
+.navbar li{
+    float: right;
+    padding-left: 70px;
+}
+body{
+    background-image: url('bbb.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    color: rgb(22, 21, 21);
+    margin-left: 50px;
+    align-items:center;
+
+    display: block;
+
+}
+.login-header{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+    border: 1px solid #090101;
+    border-radius: 5px;
+}
+.user-selection {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    
+}
+
+.user-selection button {
+    background-color: #f2f5f2;
+    color: rgb(8, 7, 7);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.user-selection button:hover {
+    background-color: #bee9f5;
+}
+.login-form{
+    width: 300px;
+    margin-left: 35%;
+    position: relative;
+    bottom: 50px;
+    
+}
+.form-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+button{
+    background-color: rgb(18, 18, 19);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding:12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    
+}
+.logins{
+    margin-bottom: 50px;
+}
+
+.login-btn{
+    background-color: blue;
+    flex: 1;
+    margin-right: 10;
+}
+.signup-btn{
+    background-color: green;
+    margin-right: 10px;
+}
+button:hover{
+    opacity: 0.5;
+}
+.extra-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    margin-top: 90px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h3{
+    margin-top: 90px;
+}

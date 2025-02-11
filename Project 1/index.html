@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Work</title>
+</head>
+<body>
+    <h1 class="student">STUDENT MANAGEMENT SYSTEM</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <link rel="stylesheet" href="/New folder/styles.css">
+    <h4>Notice:-</h4>
+    <div class="logins">
+        <form action="/login" method="post" class="login-form">
+            <div class="login-box">
+                <div class="login-header">
+                    <h1>Login</h1>
+                    <div class="user-selection">
+                        <button onclick="location.href='/teacher-login'">Teacher</button>
+                        <button onclick="location.href='/student-login'">Student</button>
+                    </div>
+                </div>
+              
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+            
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+    
+                <div class="form-buttons">
+                    <button type="submit"class="login-btn">Login</button>
+                    <button type="button"class="signup-btn"onclick="location.href='/signup'">Signup</button>
+                </div>
+            
+            
+                <div class="extra-button">
+                    <button type="button"onclick="location.href='/forgot-password'">Forgot Password</button>
+                </div>
+            </div>
+            <div class="announcements">
+                <h3>Latest Announcements</h3>
+                <ul>
+                    <li>🎓 New semester begins on March 1st.</li>
+                    <li>📢 Online classes schedule updated.</li>
+                    <li>🏆 Annual sports event registration open!</li>
+                </ul>
+            </div>
+            
+            <div class="extra-content">
+                <h2>About Our System</h2>
+                <p>
+                    This Student Management System helps teachers and students manage their academic records 
+                    efficiently. It provides secure login options and user-friendly features.
+                </p>
+            </div>
+            
+            <footer class="footer">
+                <p>&copy; 2025 Student Management System. All Rights Reserved.</p>
+                <p>Contact us at <a href="mailto:support@example.com">support@example.com</a></p>
+            </footer>
+            
+            
+        </form>
+    </div>
+    <script>
+        function exitApplication() {
+            window.close();
+        }
+    </script>
+</body>
+</html>
